@@ -29,6 +29,7 @@ export class QuotesComponent implements OnInit {
     alert("Enter an input please!!!");
   }
   else {
+
     let quoteLength = this.quotes.length;
         quote.id=quoteLength+1;
         quote.submitDate = new Date();
