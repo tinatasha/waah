@@ -1,0 +1,6 @@
+<div class="display-details">
+<p> Submited by : {{quote.submitter}} </p>
+<button id="butt" class="btn btn-primary btnsize" (click)='votePlus(true)' type="button" name="button"><img src="https://image.flaticon.com/icons/svg/25/25423.svg" alt=""width="20px" height="20px"> {{quote.upVote}} </button>
+<button id="butt" class="btn btn-primary btnsize" (click)='voteMinus(true)' type="button" name="button"> <img src="https://image.flaticon.com/icons/svg/25/25395.svg" alt="" width="20px" height="20px"> {{quote.downVote}}</button>
+<button id="butt" class="btn btn-danger btnsize" (click)='quoteDelete(true)' type="button" name="button"><img src="https://image.flaticon.com/icons/svg/39/39220.svg" alt="" width="30px" height="30px">Delete</button>
+</div>
